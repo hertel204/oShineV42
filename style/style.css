@@ -1,0 +1,12 @@
+#header {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    text-indent: -9999999px;
+}
+
+nav {
+    margin: auto;
+}
