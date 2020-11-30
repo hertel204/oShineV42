@@ -1,6 +1,11 @@
+body {
+    font-family: "Didact Gothic",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+}
+
 #header {
     display: flex;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 header h1 {
@@ -9,4 +14,39 @@ header h1 {
 
 nav {
     margin: auto;
+}
+
+#look-good {
+    display: flex;
+    height: 100vh;
+}
+
+#look-good-left {
+    display: flex;
+    width: 51%;
+    height: auto;
+    background-color: rgb(37, 37, 37);
+}
+
+#look-good-article {
+    width: 400px;
+    height: auto;
+    margin: auto;
+
+    color: #f1f4f4;
+}
+
+#look-good-article h2 {
+    font-size: 3.5em;
+    font-weight: bolder;
+}
+
+#look-good-right {
+    width: 49%;
+    height: 100vh;
+    background-image: url(../img/img.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top left;
+    background-size: cover;
 }
