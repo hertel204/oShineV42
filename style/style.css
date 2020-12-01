@@ -2,19 +2,58 @@ body {
     font-family: "Didact Gothic",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
 }
 
-#header {
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0);
+a {
+    text-decoration: none;
 }
 
-header h1 {
+#header {
+    position: absolute; 
+    background-color: transparent;
+    width: 100%;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+}
+
+#header h1 {
+    display: inline-block;
     text-indent: -9999999px;
 }
 
-nav {
-    margin: auto;
+#logo {
+    position: absolute;
+    left: 30px;
+    padding: 25px 0;
 }
+
+#header a {
+    text-transform: uppercase;
+    color: #f1f4f4;
+    padding: 15px;    
+}
+
+#header nav {
+    text-align: center;
+}
+
+#menu {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#menu li {
+    padding: 20px 0;
+}
+
+#header-book {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    padding: 35px;
+    margin: 15px;
+    background-color: black;
+}
+
 
 #look-good {
     display: flex;
@@ -23,7 +62,7 @@ nav {
 
 #look-good-left {
     display: flex;
-    width: 51%;
+    width: 51vw;
     height: auto;
     background-color: rgb(37, 37, 37);
 }
@@ -42,7 +81,7 @@ nav {
 }
 
 #look-good-right {
-    width: 49%;
+    width: 49vw;
     height: 100vh;
     background-image: url(../img/img.png);
     background-repeat: no-repeat;
