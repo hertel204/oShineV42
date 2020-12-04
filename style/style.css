@@ -1,5 +1,5 @@
 body {
-    font-family: "Didact Gothic",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+    font-family: "Didact Gothic", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
 
 a {
@@ -7,11 +7,10 @@ a {
 }
 
 #header {
-    position: absolute; 
+    position: absolute;
     background-color: transparent;
     width: 100%;
-    font-size: 0.8em;
-    letter-spacing: 0.1em;
+    letter-spacing: 1px;
 }
 
 #header h1 {
@@ -28,32 +27,35 @@ a {
 #header a {
     text-transform: uppercase;
     color: #f1f4f4;
-    padding: 15px;    
 }
 
 #header nav {
     text-align: center;
+    padding: 10px;
 }
 
 #menu {
     float: none;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
+    font-size: 0.8em;
+    font-weight: 600;
 }
 
-#menu li {
-    padding: 20px 0;
+#menu a {
+    padding: 20px 18px;
 }
 
 #header-book {
     position: absolute;
-    right: 10px;
+    right: 20px;
     top: 0;
-    padding: 35px;
-    margin: 15px;
+    padding: 15px 20px;
+    margin: 15px 10px;
+    font-size: 0.8em;
+    font-weight: 600;
     background-color: black;
 }
-
 
 #look-good {
     display: flex;
@@ -62,30 +64,51 @@ a {
 
 #look-good-left {
     display: flex;
-    width: 51vw;
-    height: auto;
+    width: 50vw;
+    height: 100vh;
+    padding-right: 40px;
     background-color: rgb(37, 37, 37);
 }
 
 #look-good-article {
-    width: 400px;
+    width: auto;
     height: auto;
     margin: auto;
-
+    padding: 100px 15% 100px 35%;
     color: #f1f4f4;
 }
 
 #look-good-article h2 {
     font-size: 3.5em;
     font-weight: bolder;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+}
+
+#look-good-article p {
+    font-family: "Didact Gothic", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 0.95em;
+    line-height: 2em;
+    color: #cccccc;
+    padding-bottom: 30px;
+}
+
+#look-good-article a {
+    text-decoration: none;
+    color: rgba(254, 233, 218, 1);
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 
 #look-good-right {
-    width: 49vw;
+    width: 50vw;
     height: 100vh;
     background-image: url(../img/img.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: top left;
+    background-position: center;
     background-size: cover;
 }
